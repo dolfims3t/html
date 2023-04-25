@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #2b2b2b;
+}
+
+body { 
+	background: #f1e8dc url(img/bg.jpg) repeat; 
+}
+	
+	/* TOPO */
+	
+	.topo{
+		background: url(img/figuras.png) no-repeat center 72px;
+		width: 100%;
+		min-height: 266px;
+		float: left;
+	}
+	
+		.topo-corpo {
+			width: 960px;
+			min-height: 266px;
+			margin: 30px auto 0;
+		}
+		
+		h1 {
+			width: 263px;
+			height: 150px;
+			float: left;
+			margin: 0 35px 0 0;
+		}
+		
+		h1 a {
+			background: url(img/logo.png) no-repeat;
+			display: block;
+			overflow: hidden;
+			text-indent: -9999px;
+			width: 263px;
+			height: 150px;
+		}
+	
+	/* BUSCAR */
+	
+	.cx-busca {
+		background: url(img/folhas-busca.png) no-repeat 215px 15px;
+		width: 334px;
+		height: 89px;
+		float: right;
+	}
+	
+	.cx-busca form {}
+	
+	.cx-busca form label {
+		font-family: 'MyriadProCondRegular';
+		font-size: 22px;
+		color: #383435;
+		float: left;
+		margin: 12px 5px 0 0; 
+	}
+	
+	.cx-busca form .bx {
+		width: 263px;
+		float: left
+	}
+	
+	.cx-busca form .bx
+	.ce {
+		background: url(img/ce.png) no-repeat;
+		width: 16px;
+		height: 51px;
+		float: left;
+	}
+	
+	.cx-busca form .bx
+	input {
+		background: url(img/bg-input.png) repeat-x;
+		width: 200px;
+		height: 51px;
+		line-height: 45px;
+		float: left;
+		border: none;
+		font-size: 12px;
+		color: #2b2b2b;
+	}
+	
+	.cx-busca form .bx .bt-lupa {
+		background: url(img/bt-lupa.png) no-repeat;
+		width: 44px;
+		height: 51px;
+		cursor: pointer;
+		text-indent: -9999px;
+		text-transform: uppercase;
+	}
+	
+	/* GERAL */
+	
+	.geral {
+		width: 960px;
+		margin: 0 auto;
+		min-height: 300px;
+		clear: both;
+	}
+	
+	/* FULLBANNER */
+	
+	.fullbanner {
+		background: url(img/bg-fullbanner2.png) no-repeat;
+		width: 958px;
+		height: 528px;
+		position: relative;
+	}
+	
+		.fullbanner .slider {
+			width: 958px;
+			height: 528px;
+			position: relative;
+		}
+		
+		.fullbanner .slider .c1 { background: url(img/c1.png) no-repeat; position: absolute; width: 78px; height: 124px; z-index: 10; top: 0; left: 0; }
+		.fullbanner .slider .c2 { background: url(img/c2.png) no-repeat; position: absolute; width: 79px; height: 124px; z-index: 10; top: 0; right: 0; }
+		.fullbanner .slider .c3 { background: url(img/c3.png) no-repeat; position: absolute; width: 55px; height: 85px; z-index: 10; bottom: 0; left: 23px; }
+		.fullbanner .slider .c4 { background: url(img/c4.png) no-repeat; position: absolute; width: 56px; height: 85px; z-index: 10; bottom: 0; right: 23px; }
+		
+		.fullbanner .slider img { float: left; margin: 54px 0 0 43px; display: inline; }
+			
+	.corpo{}
+	
+		.coluna_esquerda{}
+		
+		.coluna_meio{}
+		
+		.coluna_direita{}
+	
+	.rodape{}
